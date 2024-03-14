@@ -1,0 +1,84 @@
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    height: 100px;
+    background-color: bisque;
+
+}
+
+.header h3 {
+    width: 40%;
+    margin-left: 30px;
+    align-self: center;
+}
+
+.navBar {
+    display: flex;
+    font-size: 20px;
+    gap: 64px;
+    width: 60%;
+    margin-right: 50px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-section {
+    height: 1000px;
+}
+
+.description-section {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    height: 600px;
+}
+
+.description-section .lawyer {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.lawyer h2 {
+    font-size: 30px;
+}
+
+.description-section .image-container {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.image-container img {
+    width: 400px;
+    height: 500px;
+    /* object-fit: cover; */
+    border-radius: 100px;
+    
+}
+
+.services-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    background-color: bisque;
+    height: 80px;
+}
