@@ -155,8 +155,8 @@ i {
 
 .info-about-wrapper {
     margin-top: 50px;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 300px;
+    padding-right: 300px;
     height: 500px;
     display: flex;
 }
@@ -166,8 +166,9 @@ i {
 }
 
 .text-description {
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-bottom: 50px;
 }
  .salsa-cumbia-img {
     margin-left: 20px;
